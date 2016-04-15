@@ -46,7 +46,6 @@ angular
 
             //se FB element não for undefined ou Null ele executa a atualização 
             //( resolve problema de primeira entrada na pagina quando diretiva ainda nao esta carregada)
-            //--
 			// If FB element is not undefined or null it performs the update
 			// (Solves the problem first entry on the page when policy not yet is loaded)
             if (typeof(FB) != 'undefined' && FB != null ) {
